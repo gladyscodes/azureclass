@@ -1,5 +1,5 @@
 * {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: monospace;
 }
 
 html, body {
@@ -8,6 +8,7 @@ html, body {
   padding: 0;
   background-color: #fff;
   background-image: url("https://www.freevector.com/uploads/vector/preview/19574/CartoonClouds_01_Preview.jpg");
+  background-size: cover;
 }
 
 main {
@@ -18,5 +19,29 @@ main {
 
 main > h1 {
   text-align: center;
+  font-size: 5em;
+}
+
+main > h2 {
+  text-align: center;
   font-size: 3.5em;
+}
+
+span {
+  color: rgb(32, 117, 184);
+}
+
+.images {
+   display: flex;
+   height: 140px;
+   width: 70px;
+   justify-content: flex-start;
+   padding-left: 200px;
+   padding-bottom: 80px;
+  
+}
+
+.images__logo {
+  width: 200px;
+ 
 }
